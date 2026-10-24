@@ -240,36 +240,29 @@
 </section>
 
 <!-- ==============================================
-     03. STATS INFINITE MARQUEE (الإحصائيات متحركة)
+     03. STATS INFINITE MARQUEE
 ============================================== -->
 <section class="relative w-full bg-slate-50 border-t border-b border-slate-200 py-6 sm:py-8 overflow-hidden select-none">
-  <!-- تدرجات الظلال الجانبية لتأثير التلاشي الفخم -->
   <div class="absolute inset-y-0 right-0 w-16 sm:w-28 bg-gradient-to-l from-slate-50 to-transparent z-10 pointer-events-none"></div>
   <div class="absolute inset-y-0 left-0 w-16 sm:w-28 bg-gradient-to-r from-slate-50 to-transparent z-10 pointer-events-none"></div>
 
   <div class="flex overflow-hidden w-full group gap-10 sm:gap-16">
-    
-    <!-- المجموعة الأولى المتحركة -->
     <div class="flex items-center gap-10 sm:gap-16 shrink-0 animate-marquee group-hover:[animation-play-state:paused]">
-      <!-- إحصائية 1 -->
       <div class="flex items-center gap-3">
         <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
         <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">7+</span>
         <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">سنوات من الخبرة والنمو</span>
       </div>
-      <!-- إحصائية 2 -->
       <div class="flex items-center gap-3">
         <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
         <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">30+</span>
         <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">مشروع ناجح ومكتمل</span>
       </div>
-      <!-- إحصائية 3 -->
       <div class="flex items-center gap-3">
         <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
         <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">95%</span>
         <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">نسبة استمرار ورضا العملاء</span>
       </div>
-      <!-- إحصائية 4 -->
       <div class="flex items-center gap-3">
         <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
         <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">22+</span>
@@ -277,65 +270,49 @@
       </div>
     </div>
 
-    <!-- المجموعة الثانية المكررة (لتحقيق الحركة اللانهائية السلسة) -->
     <div class="flex items-center gap-10 sm:gap-16 shrink-0 animate-marquee group-hover:[animation-play-state:paused]" aria-hidden="true">
-      <!-- إحصائية 1 -->
       <div class="flex items-center gap-3">
         <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
         <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">7+</span>
         <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">سنوات من الخبرة والنمو</span>
       </div>
-      <!-- إحصائية 2 -->
       <div class="flex items-center gap-3">
         <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
         <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">30+</span>
         <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">مشروع ناجح ومكتمل</span>
       </div>
-      <!-- إحصائية 3 -->
       <div class="flex items-center gap-3">
         <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
         <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">95%</span>
         <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">نسبة استمرار ورضا العملاء</span>
       </div>
-      <!-- إحصائية 4 -->
       <div class="flex items-center gap-3">
         <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
         <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">22+</span>
         <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">شريك نجاح</span>
       </div>
     </div>
-
   </div>
 </section>
 
 <!-- ==============================================
-     04. LOGOS GRID (مربعات 2x2 في الهاتف وفواصل شفافة)
+     04. LOGOS GRID
 ============================================== -->
 <section class="w-full bg-[#0A1B44] border-b border-white/10 select-none">
   <div class="max-w-7xl mx-auto">
-    <!-- الشبكة: 2 في الهاتف و 4 في اللابتوب مع فواصل شفافة خفيفة بالكامل -->
     <div class="grid grid-cols-2 lg:grid-cols-4 divide-y divide-white/10 lg:divide-y-0 divide-x divide-x-reverse divide-white/10">
-      
-  <!-- اللوجو 01 -->
-<div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
-  <img src="logo.png" alt="شعار الشريك 1" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
-</div>
-
-<!-- اللوجو 02 -->
-<div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
-  <img src="logo.png" alt="شعار الشريك 2" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
-</div>
-
-<!-- اللوجو 03 -->
-<div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
-  <img src="logo.png" alt="شعار الشريك 3" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
-</div>
-
-<!-- اللوجو 04 -->
-<div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
-  <img src="logo.png" alt="شعار الشريك 4" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
-</div>
-
+      <div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
+        <img src="logo.png" alt="شعار الشريك 1" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
+      </div>
+      <div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
+        <img src="logo.png" alt="شعار الشريك 2" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
+      </div>
+      <div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
+        <img src="logo.png" alt="شعار الشريك 3" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
+      </div>
+      <div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
+        <img src="logo.png" alt="شعار الشريك 4" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
+      </div>
     </div>
   </div>
 </section>
@@ -345,7 +322,6 @@
 ============================================================== -->
 <section id="services" class="relative w-full bg-slate-50/60 py-16 sm:py-24 px-4 sm:px-6 lg:px-10 overflow-hidden select-none border-b border-slate-200">
   <div class="max-w-7xl mx-auto w-full">
-    
     <div class="flex flex-col items-start mb-8 sm:mb-14">
       <h2 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl title-font tracking-tight text-brandBlue leading-tight flex flex-col gap-2 lg:gap-3">
         <span>حلول برمجية واستراتيجية</span>
@@ -405,7 +381,7 @@
           <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-red-50 text-brandRed">
             <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="3"></circle>
-              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
             </svg>
           </span>
           <span class="text-[10px] font-mono text-slate-400 tracking-wider uppercase">MINI-CRM & AUTOMATION</span>
@@ -495,49 +471,51 @@
   </div>
 </section>
 
-<!-- ==============================================================
+<!-- ==============================================
      06. قسم الأعمال المتراكمة (STACKING CARDS)
-============================================================== -->
-<section id="portfolio" class="relative w-full bg-white py-16 px-4 sm:px-6 lg:px-10 overflow-hidden select-none border-b border-slate-200">
+============================================== -->
+<section id="portfolio" class="relative w-full bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-10 overflow-hidden select-none border-b border-slate-200">
   <div class="max-w-7xl mx-auto w-full">
-    <div class="flex flex-col items-start mb-8 sm:mb-12">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="w-2 h-2 rounded-full bg-brandRed"></span><span class="text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-500 font-bold">03 // نماذج أعمال مختارة</span>
+    
+    <div class="flex flex-col items-start mb-6 sm:mb-12">
+      <div class="flex items-center gap-2 mb-2 sm:mb-3">
+        <span class="w-2 h-2 rounded-full bg-brandRed"></span>
+        <span class="text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-500 font-bold">03 // نماذج أعمال مختارة</span>
       </div>
       <h2 class="text-2xl sm:text-4xl md:text-5xl title-font tracking-tight text-brandBlue">
         أعمال استثنائية صنعت <span class="text-brandRed">فارقاً حقيقياً</span> في المبيعات.
       </h2>
     </div>
 
-    <!-- الحاوية بارتفاع متناسق ومحكم على الموبايل واللابتوب -->
-    <div id="cards-stage" class="relative w-full h-[720px] sm:h-[700px] lg:h-[480px]">
+    <!-- الارتفاع مضبوط بحيث يظهر الكارت كاملاً بكل تفاصيله داخل شاشة الهاتف -->
+    <div id="cards-stage" class="relative w-full h-[600px] sm:h-[540px] lg:h-[480px]">
 
       <!-- عمل 01: شركة عنان للتكييف المركزي -->
       <div class="stack-panel z-10 bg-white">
-        <div class="w-full h-full rounded-3xl border border-slate-200 bg-white p-5 sm:p-8 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between overflow-hidden">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-10 items-center">
+        <div class="w-full h-full rounded-2xl sm:rounded-3xl border border-slate-200 bg-white p-4 sm:p-8 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-3.5 sm:gap-6 lg:gap-10 items-center">
             
             <!-- صورة المعاينة -->
             <div class="lg:col-span-6">
-              <div class="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
-                <img src="p2.png" alt="شركة عنان للتكييف المركزي" class="w-full h-auto max-h-[220px] sm:max-h-[260px] lg:max-h-none object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="relative w-full rounded-xl sm:rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
+                <img src="p2.png" alt="شركة عنان للتكييف المركزي" class="w-full h-auto max-h-[145px] sm:max-h-[220px] lg:max-h-none object-cover group-hover:scale-105 transition-transform duration-500">
               </div>
             </div>
 
             <!-- القصة والتفاصيل -->
             <div class="lg:col-span-6 flex flex-col justify-between text-right">
               <div>
-                <span class="inline-block px-3 py-0.5 sm:px-3.5 sm:py-1 rounded-full border border-slate-200 bg-slate-50 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-3 sm:mb-5">التكييف المركزي والهندسة</span>
-                <h3 class="text-xl sm:text-2xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-3 sm:mb-4 text-brandBlue">شركة عنان للتكييف المركزي</h3>
+                <span class="inline-block px-2.5 py-0.5 sm:px-3.5 sm:py-1 rounded-full border border-slate-200 bg-slate-50 text-[9px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-1.5 sm:mb-4">التكييف المركزي والهندسة</span>
+                <h3 class="text-lg sm:text-2xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-2 sm:mb-3 text-brandBlue">شركة عنان للتكييف المركزي</h3>
                 
-                <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed mb-4 sm:mb-6 text-justify">
+                <p class="text-slate-600 text-[11px] sm:text-sm md:text-base font-normal leading-[1.65] sm:leading-relaxed mb-3 sm:mb-4 text-justify">
                   في مشروع شركة "عنان"، لم يكن الهدف مجرد عرض خدمات تبريد عادية، بل كان التحدي الرئيسي بناء موقع تعريفي مؤسسي يعكس الضخامة والاحترافية الهندسية للشركة. تطلب العمل تصميم واجهة تفاعلية نظيفة تسلط الضوء على سابقة الأعمال والمشاريع الكبرى المنفذة، مع دمج قسم متخصص للمقالات والأخبار الهندسية لتعزيز الثقة المطلقة لدى العملاء من قطاع الشركات والمقاولات، وتحويل كل زائر إلى شريك استراتيجي مستدام.
                 </p>
               </div>
 
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5 border-t border-slate-100 pt-3 sm:pt-4 mt-1 sm:mt-2">
-                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">عرض احترافي لسابقة الأعمال والمشاريع</span></div>
-                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">قسم مقالات وأخبار لتعزيز السلطة التقنية</span></div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1.5 border-t border-slate-100 pt-2.5 sm:pt-3">
+                <div class="flex items-center gap-2 pb-1 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-[11px] sm:text-sm title-font text-slate-700">عرض احترافي لسابقة الأعمال والمشاريع</span></div>
+                <div class="flex items-center gap-2 pb-1 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-[11px] sm:text-sm title-font text-slate-700">قسم مقالات وأخبار لتعزيز السلطة التقنية</span></div>
               </div>
             </div>
 
@@ -547,28 +525,28 @@
 
       <!-- عمل 02: منصة رواد التحدي -->
       <div class="stack-panel z-10 bg-white">
-        <div class="w-full h-full rounded-3xl border border-slate-200 bg-white p-5 sm:p-8 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between overflow-hidden">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-10 items-center">
+        <div class="w-full h-full rounded-2xl sm:rounded-3xl border border-slate-200 bg-white p-4 sm:p-8 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-3.5 sm:gap-6 lg:gap-10 items-center">
             
             <div class="lg:col-span-6">
-              <div class="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
-                <img src="p1.png" alt="منصة رواد التحدي للتجارة والتصدير" class="w-full h-auto max-h-[220px] sm:max-h-[260px] lg:max-h-none object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="relative w-full rounded-xl sm:rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
+                <img src="p1.png" alt="منصة رواد التحدي للتجارة والتصدير" class="w-full h-auto max-h-[145px] sm:max-h-[220px] lg:max-h-none object-cover group-hover:scale-105 transition-transform duration-500">
               </div>
             </div>
 
             <div class="lg:col-span-6 flex flex-col justify-between text-right">
               <div>
-                <span class="inline-block px-3 py-0.5 sm:px-3.5 sm:py-1 rounded-full border border-slate-200 bg-slate-50 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-3 sm:mb-5">التجارة الدولية والتصدير</span>
-                <h3 class="text-xl sm:text-2xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-3 sm:mb-4 text-brandBlue">منصة رواد التحدي</h3>
+                <span class="inline-block px-2.5 py-0.5 sm:px-3.5 sm:py-1 rounded-full border border-slate-200 bg-slate-50 text-[9px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-1.5 sm:mb-4">التجارة الدولية والتصدير</span>
+                <h3 class="text-lg sm:text-2xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-2 sm:mb-3 text-brandBlue">منصة رواد التحدي</h3>
                 
-                <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed mb-4 sm:mb-6 text-justify">
+                <p class="text-slate-600 text-[11px] sm:text-sm md:text-base font-normal leading-[1.65] sm:leading-relaxed mb-3 sm:mb-4 text-justify">
                   لم يكن الهدف مجرد تصميم موقع إلكتروني عابر، بل كان التحدي الحقيقي يكمن في كيفية نقل منتج محلي استثنائي (مثل زيوت السمسم الفاخرة) إلى ساحة التجارة الدولية. تطلب المشروع بناء هيكل رقمي ثنائي اللغة (عربي / إنجليزي) مدعوم بهندسة دقيقة لمحركات البحث (SEO)، لتمكين المستوردين والمشترين الأجانب من العثور عليهم بسهولة تامة، مع عكس هوية مؤسسية توحي بالثقة المطلقة وتبرز الالتزام بالمعايير العالمية وشهادات التحليل (COA). النتيجة كانت بوابة تجارية ثنائية اللغة، فائقة الأداء، تضعهم في صدارة نتائج البحث العالمي وتحول كل زائر دولي إلى شريك تجاري موثوق.
                 </p>
               </div>
 
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5 border-t border-slate-100 pt-3 sm:pt-4 mt-1 sm:mt-2">
-                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">هيكل ثنائي اللغة (عربي / إنجليزي)</span></div>
-                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">هندسة متقدمة لمحركات البحث (SEO)</span></div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1.5 border-t border-slate-100 pt-2.5 sm:pt-3">
+                <div class="flex items-center gap-2 pb-1 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-[11px] sm:text-sm title-font text-slate-700">هيكل ثنائي اللغة (عربي / إنجليزي)</span></div>
+                <div class="flex items-center gap-2 pb-1 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-[11px] sm:text-sm title-font text-slate-700">هندسة متقدمة لمحركات البحث (SEO)</span></div>
               </div>
             </div>
 
@@ -578,28 +556,28 @@
 
       <!-- عمل 03: منصة تشارم بيوتي -->
       <div class="stack-panel z-10 bg-white">
-        <div class="w-full h-full rounded-3xl border border-slate-200 bg-white p-5 sm:p-8 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-start lg:justify-between gap-4 lg:gap-0 overflow-hidden">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-10 items-center">
+        <div class="w-full h-full rounded-2xl sm:rounded-3xl border border-slate-200 bg-white p-4 sm:p-8 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-3.5 sm:gap-6 lg:gap-10 items-center">
             
             <div class="lg:col-span-6">
-              <div class="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
-                <img src="p3.png" alt="منصة تشارم بيوتي" class="w-full h-auto max-h-[220px] sm:max-h-[250px] lg:max-h-none object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="relative w-full rounded-xl sm:rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
+                <img src="p3.png" alt="منصة تشارم بيوتي" class="w-full h-auto max-h-[145px] sm:max-h-[220px] lg:max-h-none object-cover group-hover:scale-105 transition-transform duration-500">
               </div>
             </div>
 
-            <div class="lg:col-span-6 flex flex-col justify-start text-right">
+            <div class="lg:col-span-6 flex flex-col justify-between text-right">
               <div>
-                <span class="inline-block px-3 py-0.5 sm:px-3.5 sm:py-1 rounded-full border border-slate-200 bg-slate-50 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-2 sm:mb-4">التجميل والعناية الطبية</span>
-                <h3 class="text-xl sm:text-2xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-3 sm:mb-4 text-brandBlue">منصة <span class="text-brandRed font-mono uppercase">CHARM BEAUTY</span></h3>
+                <span class="inline-block px-2.5 py-0.5 sm:px-3.5 sm:py-1 rounded-full border border-slate-200 bg-slate-50 text-[9px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-1.5 sm:mb-4">التجميل والعناية الطبية</span>
+                <h3 class="text-lg sm:text-2xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-2 sm:mb-3 text-brandBlue">منصة <span class="text-brandRed font-mono uppercase">CHARM BEAUTY</span></h3>
                 
-                <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed mb-4 sm:mb-6 text-justify">
-                  في مشروع "تشارم بيوتي"، كان التحدي يكمن في ترجمة الشعار القائل "جمالك بلمسة طبية راقية" إلى واجهة رقمية تنبض بالفخامة والموثوقية. تطلب العمل تصميم موقع تعريفي وتسويقي متكامل يدمج بين جاذبية عالم التجميل ودقة المعايير الطبية، مع تنظيم الأقسام بذكاء (المنتجات، المدونة، الأسئلة الشائعة) لتسهيل رحلة العميل، بناء الثقة الفورية، ومضاعفة معدلات التحويل والمبيعات.
+                <p class="text-slate-600 text-[11px] sm:text-sm md:text-base font-normal leading-[1.65] sm:leading-relaxed mb-3 sm:mb-4 text-justify">
+                  في مشروع "تشارم بيوتي"، كان التحدي يكمن في ترجمة الشعار القائل "جمالك بلمسة طبية راقية" إلى واجهة رقمية تنبض بالفخامة والموثوقية. تطلب العمل تصميم موقع تعريفي وتسويقي متكامل يدمج بين جاذبية عالم التجميل ودقة المعايير الطبية، مع تنظيم الأقسام بذكاء (المنتجات، المدونة، الأسئلة الشائعة)[cite: 2] لتسهيل رحلة العميل، بناء الثقة الفورية، ومضاعفة معدلات التحويل والمبيعات.
                 </p>
               </div>
 
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 border-t border-slate-100 pt-3 sm:pt-4">
-                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">تصميم بصري فاخر يعكس الهوية الطبية</span></div>
-                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">هيكلة متكاملة للمنتجات والمدونة</span></div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1.5 border-t border-slate-100 pt-2.5 sm:pt-3">
+                <div class="flex items-center gap-2 pb-1 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-[11px] sm:text-sm title-font text-slate-700">تصميم بصري فاخر يعكس الهوية الطبية</span></div>
+                <div class="flex items-center gap-2 pb-1 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-[11px] sm:text-sm title-font text-slate-700">هيكلة متكاملة للمنتجات والمدونة</span></div>
               </div>
             </div>
 
@@ -613,7 +591,7 @@
 
 <!-- ==============================================================
      شريط الدعوة للتواصل السريع
-============================================================== -->
+============================================== -->
 <section class="relative w-full bg-gradient-to-r from-brandBlue via-[#122B68] to-brandBlue text-white py-10 sm:py-12 px-4 sm:px-6 lg:px-12 select-none overflow-hidden shadow-xl">
   <div class="absolute inset-0 bg-[radial-gradient(circle_at_right,rgba(186,32,38,0.25),transparent_60%)] pointer-events-none"></div>
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 relative z-10">
@@ -629,18 +607,18 @@
         <p class="text-slate-300 text-xs sm:text-sm font-medium mt-1">احصل على استشارة وتحليل مجاني لموقعك ومسار تحويل عملائك.</p>
       </div>
     </div>
-<div class="shrink-0 w-auto flex justify-center">
-  <button onclick="openContactModal()" class="group inline-flex items-center justify-center gap-3 w-auto px-7 py-3 sm:px-10 sm:py-4 rounded-full bg-brandRed hover:bg-brandRed-hover text-white title-font text-xs sm:text-sm transition-all duration-300 shadow-lg shadow-brandRed/30 active:scale-95 whitespace-nowrap">
-    <span>تواصل معنا الآن</span>
-    <span class="text-base transition-transform group-hover:-translate-x-1.5">←</span>
-  </button>
-</div>
+    <div class="shrink-0 w-auto flex justify-center">
+      <button onclick="openContactModal()" class="group inline-flex items-center justify-center gap-3 w-auto px-7 py-3 sm:px-10 sm:py-4 rounded-full bg-brandRed hover:bg-brandRed-hover text-white title-font text-xs sm:text-sm transition-all duration-300 shadow-lg shadow-brandRed/30 active:scale-95 whitespace-nowrap">
+        <span>تواصل معنا الآن</span>
+        <span class="text-base transition-transform group-hover:-translate-x-1.5">←</span>
+      </button>
+    </div>
   </div>
 </section>
 
 <!-- ==============================================================
      قسم المقالات والرؤى التسويقية
-============================================================== -->
+============================================== -->
 <section id="articles" class="relative w-full bg-slate-50/50 py-16 sm:py-24 px-4 sm:px-6 lg:px-10 overflow-hidden select-none border-b border-slate-200">
   <div class="max-w-7xl mx-auto w-full">
     <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 sm:mb-16">
@@ -887,9 +865,6 @@
 <!-- ==============================================
      FOOTER
 ============================================== -->
-<!-- ==============================================
-     FOOTER
-============================================== -->
 <footer class="relative w-full bg-white text-slate-700 pt-16 sm:pt-20 pb-12 px-4 sm:px-6 lg:px-10 border-t border-slate-200 select-none">
   <div class="max-w-7xl mx-auto w-full">
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-12 gap-10 lg:gap-8 pb-14 sm:pb-16 text-right">
@@ -956,8 +931,6 @@
       </div>
 
     </div>
-
-
   </div>
 </footer>
 
@@ -1092,29 +1065,25 @@
     });
   });
 
-  // 3. كروت الأعمال المتراكمة (GSAP مفعل لكافة الأجهزة مع دعم مسافة التمرير للهاتف)
+  // 3. كروت الأعمال المتراكمة (نفس الحركة الأصلية بالكامل)
   window.addEventListener('DOMContentLoaded', () => {
-    if(typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+    if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
       gsap.registerPlugin(ScrollTrigger);
       const panels = gsap.utils.toArray('.stack-panel');
-      if(panels.length > 0) {
+      if (panels.length > 0) {
         gsap.set(panels.slice(1), { yPercent: 100 });
-        
-        // مسافة التمرير تتناسب ديناميكياً مع ارتفاع الشاشة
-       const scrollDistance = window.innerWidth < 1024 ? "+=2200" : "+=2400";
-        const startTrigger = window.innerWidth < 1024 ? "top 8%" : "top 10%";
 
         const tl = gsap.timeline({
-          scrollTrigger: { 
-            trigger: "#portfolio", 
-            start: startTrigger, 
-            end: scrollDistance, 
-            pin: true, 
-            scrub: 0.6, 
-            anticipatePin: 1 
+          scrollTrigger: {
+            trigger: "#portfolio",
+            start: "top 8%",
+            end: "+=2600",
+            pin: true,
+            scrub: 0.6,
+            anticipatePin: 1
           }
         });
-        
+
         tl.to(panels[1], { yPercent: 0, ease: "none", duration: 1 })
           .to(panels[0], { scale: 0.95, ease: "none", duration: 1 }, "<")
           .to(panels[2], { yPercent: 0, ease: "none", duration: 1 })
