@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl" class="overflow-x-hidden scroll-smooth">
 <head>
@@ -10,7 +8,6 @@
   <!-- الخطوط -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- خط العناوين المطابق لصورة دايماً سباقين: Almarai & Alexandria + خط النصوص المتناسق -->
   <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@700;800;900&family=Almarai:wght@700;800&family=Cairo:wght@600;700;800;900&family=Montserrat:ital,wght@1,900&family=Space+Grotesk:wght@600;700;800&family=Readex+Pro:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
@@ -28,7 +25,6 @@
             mono: ['Space Grotesk', 'monospace'],
           },
           colors: {
-            // درجات الصورة الثانية بالضبط: كحلي ملكي عميق وأحمر قرمزي متوازن
             brandBlue: {
               DEFAULT: '#0F265C',
               dark: '#0A1B44',
@@ -137,23 +133,22 @@
 
     <a href="../public/" class="flex items-center gap-2 shrink-0 select-none">
       <div class="hidden md:flex flex-col text-[7px] lg:text-[8px] font-mono leading-[1.15] text-slate-500 border-l border-slate-300 pl-2 tracking-tighter uppercase font-bold text-left">
-     <span class=" text-[8px] lg:text-[9px] font-black">SOFTWARE ENGINEER</span>
-<span>SCALABLE PLATFORMS </span>
-<span> HIGH-CONVERTING UI &</span>
+        <span class="text-[8px] lg:text-[9px] font-black">SOFTWARE ENGINEER</span>
+        <span>SCALABLE PLATFORMS</span>
+        <span>HIGH-CONVERTING UI &</span>
       </div>
 
       <div class="relative flex items-center">
         <span class="logo-font text-2xl sm:text-3xl lg:text-4xl tracking-tighter uppercase text-brandBlue hover:text-brandBlue-light transition-colors">
           Ludan
         </span>
-
       </div>
     </a>
 
     <nav class="hidden lg:flex items-center gap-6 xl:gap-9 text-xs xl:text-sm title-font text-slate-600">
       <a href="#services" class="hover:text-brandBlue transition-colors duration-200">الخدمات</a>
-      <a href="portfolio" class="hover:text-brandBlue transition-colors duration-200">أعمالنا</a>
-      <a href="articles" class="hover:text-brandBlue transition-colors duration-200">المقالات</a>
+      <a href="#portfolio" class="hover:text-brandBlue transition-colors duration-200">أعمالنا</a>
+      <a href="#articles" class="hover:text-brandBlue transition-colors duration-200">المقالات</a>
       <a href="#faq" class="hover:text-brandBlue transition-colors duration-200">الأسئلة الشائعة</a>
     </nav>
 
@@ -190,22 +185,22 @@
       // فهرس الأقسام
     </span>
 
-    <a href="/#services" class="mobile-link flex items-center justify-between text-xl sm:text-2xl title-font text-brandBlue py-2.5 border-b border-slate-100 active:text-brandRed">
+    <a href="#services" class="mobile-link flex items-center justify-between text-xl sm:text-2xl title-font text-brandBlue py-2.5 border-b border-slate-100 active:text-brandRed">
       <span>الخدمات والحلول</span>
       <span class="text-xs font-mono text-slate-400">01</span>
     </a>
 
-    <a href="/portfolio" class="mobile-link flex items-center justify-between text-xl sm:text-2xl title-font text-brandBlue py-2.5 border-b border-slate-100 active:text-brandRed">
+    <a href="#portfolio" class="mobile-link flex items-center justify-between text-xl sm:text-2xl title-font text-brandBlue py-2.5 border-b border-slate-100 active:text-brandRed">
       <span>أعمالنا وقصص النجاح</span>
       <span class="text-xs font-mono text-slate-400">02</span>
     </a>
 
-    <a href="/articles" class="mobile-link flex items-center justify-between text-xl sm:text-2xl title-font text-brandBlue py-2.5 border-b border-slate-100 active:text-brandRed">
+    <a href="#articles" class="mobile-link flex items-center justify-between text-xl sm:text-2xl title-font text-brandBlue py-2.5 border-b border-slate-100 active:text-brandRed">
       <span>المقالات والتحليلات</span>
       <span class="text-xs font-mono text-slate-400">03</span>
     </a>
 
-    <a href="/#faq" class="mobile-link flex items-center justify-between text-xl sm:text-2xl title-font text-brandBlue py-2.5 border-b border-slate-100 active:text-brandRed">
+    <a href="#faq" class="mobile-link flex items-center justify-between text-xl sm:text-2xl title-font text-brandBlue py-2.5 border-b border-slate-100 active:text-brandRed">
       <span>الأسئلة الشائعة</span>
       <span class="text-xs font-mono text-slate-400">04</span>
     </a>
@@ -225,17 +220,13 @@
   </div>
 </div>
 
-
 <!-- ==============================================
      02. HERO SECTION
 ============================================== -->
 <section class="relative w-full bg-white text-slate-900 pt-40 sm:pt-48 md:pt-56 pb-20 sm:pb-24 md:min-h-[calc(100vh-6rem)] md:flex md:items-center md:justify-center px-5 sm:px-6 lg:px-8 overflow-hidden select-none border-b border-slate-100">
-  
-  <!-- خلفية الشبكة (Grid Background) -->
   <div class="absolute inset-0 bg-[linear-gradient(to_right,#0F265C08_1px,transparent_1px),linear-gradient(to_bottom,#0F265C08_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] pointer-events-none"></div>
   
   <div class="max-w-4xl mx-auto w-full relative z-10 flex flex-col items-center text-center pt-4 sm:pt-0">
-    
     <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl title-font text-brandBlue tracking-tight leading-[1.25] sm:leading-[1.18] mb-4 sm:mb-6 max-w-3xl">
       صفحات هبوط ومواقع <br />
       <span class="text-brandRed inline-block">تُضـــــاعف مبيعاتـــــك</span> <br />
@@ -245,66 +236,106 @@
     <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-[1.8] max-w-md sm:max-w-xl text-center">
       نصمم ونطوّر صفحات هبوط ومواقع ذكية مبنية على دراسة سلوك العميل وتجربة المستخدم، لتحويل زيارات إعلاناتك إلى عقود ومبيعات ملموسة وشركاء نجاح دائمين
     </p>
+  </div>
+</section>
+
+<!-- ==============================================
+     03. STATS INFINITE MARQUEE (الإحصائيات متحركة)
+============================================== -->
+<section class="relative w-full bg-slate-50 border-t border-b border-slate-200 py-6 sm:py-8 overflow-hidden select-none">
+  <!-- تدرجات الظلال الجانبية لتأثير التلاشي الفخم -->
+  <div class="absolute inset-y-0 right-0 w-16 sm:w-28 bg-gradient-to-l from-slate-50 to-transparent z-10 pointer-events-none"></div>
+  <div class="absolute inset-y-0 left-0 w-16 sm:w-28 bg-gradient-to-r from-slate-50 to-transparent z-10 pointer-events-none"></div>
+
+  <div class="flex overflow-hidden w-full group gap-10 sm:gap-16">
+    
+    <!-- المجموعة الأولى المتحركة -->
+    <div class="flex items-center gap-10 sm:gap-16 shrink-0 animate-marquee group-hover:[animation-play-state:paused]">
+      <!-- إحصائية 1 -->
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
+        <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">7+</span>
+        <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">سنوات من الخبرة والنمو</span>
+      </div>
+      <!-- إحصائية 2 -->
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
+        <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">30+</span>
+        <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">مشروع ناجح ومكتمل</span>
+      </div>
+      <!-- إحصائية 3 -->
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
+        <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">95%</span>
+        <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">نسبة استمرار ورضا العملاء</span>
+      </div>
+      <!-- إحصائية 4 -->
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
+        <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">22+</span>
+        <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">شريك نجاح</span>
+      </div>
+    </div>
+
+    <!-- المجموعة الثانية المكررة (لتحقيق الحركة اللانهائية السلسة) -->
+    <div class="flex items-center gap-10 sm:gap-16 shrink-0 animate-marquee group-hover:[animation-play-state:paused]" aria-hidden="true">
+      <!-- إحصائية 1 -->
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
+        <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">7+</span>
+        <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">سنوات من الخبرة والنمو</span>
+      </div>
+      <!-- إحصائية 2 -->
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
+        <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">30+</span>
+        <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">مشروع ناجح ومكتمل</span>
+      </div>
+      <!-- إحصائية 3 -->
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
+        <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">95%</span>
+        <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">نسبة استمرار ورضا العملاء</span>
+      </div>
+      <!-- إحصائية 4 -->
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-4 text-brandRed stroke-current fill-none shrink-0" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
+        <span class="font-mono text-2xl sm:text-3xl font-black text-brandBlue tracking-tight">22+</span>
+        <span class="title-font text-xs sm:text-sm text-slate-500 whitespace-nowrap">شريك نجاح</span>
+      </div>
+    </div>
 
   </div>
 </section>
 
 <!-- ==============================================
-     03. INFINITE LOGO MARQUEE
+     04. LOGOS GRID (مربعات 2x2 في الهاتف وفواصل شفافة)
 ============================================== -->
-<section class="relative w-full bg-slate-50 border-t border-b border-slate-200 py-6 sm:py-8 overflow-hidden select-none">
-  <div class="absolute inset-y-0 right-0 w-16 sm:w-28 bg-gradient-to-l from-slate-50 to-transparent z-10 pointer-events-none"></div>
-  <div class="absolute inset-y-0 left-0 w-16 sm:w-28 bg-gradient-to-r from-slate-50 to-transparent z-10 pointer-events-none"></div>
-  <!-- أضفنا gap-10 sm:gap-16 للحاوية الرئيسية بالأسفل -->
-<div class="flex overflow-hidden w-full group gap-10 sm:gap-16">
-    
-    <!-- الكتلة الأولى -->
-    <div class="flex items-center gap-10 sm:gap-16 shrink-0 animate-marquee group-hover:[animation-play-state:paused]">
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="title-font text-xs sm:text-sm text-slate-700"> Anan Company</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-base sm:text-xl font-black tracking-widest text-slate-700 uppercase">Apollo International School</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-xs sm:text-sm font-bold text-slate-600">CHARM BEUTEY</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-lg sm:text-2xl font-black italic tracking-tighter text-slate-800">Rowad Al-Tahadi Company</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="title-font text-xs sm:text-sm text-slate-700"> Future Agency</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-base sm:text-xl font-extrabold text-slate-700 tracking-wider"> Suda visual</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-xs sm:text-sm font-bold text-slate-900">Hames Company</span></div>
-    </div>
-    
-    <!-- الكتلة الثانية (المكررة) -->
-    <div class="flex items-center gap-10 sm:gap-16 shrink-0 animate-marquee group-hover:[animation-play-state:paused]" aria-hidden="true">
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="title-font text-xs sm:text-sm text-slate-700"> Anan Company</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-base sm:text-xl font-black tracking-widest text-slate-700 uppercase">Apollo International School</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-xs sm:text-sm font-bold text-slate-600">CHARM BEUTEY</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-lg sm:text-2xl font-black italic tracking-tighter text-slate-800"> Rowad Al-Tahadi Company</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="title-font text-xs sm:text-sm text-slate-700"> Future Agency</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-base sm:text-xl font-extrabold text-slate-700 tracking-wider"> Suda visual</span></div>
-      <div class="flex items-center gap-2 opacity-65 hover:opacity-100 transition-opacity"><span class="font-mono text-xs sm:text-sm font-bold text-slate-600">Hames Company</span></div>
-    </div>
-
-</div>
-</section>
-
-<!-- ==============================================
-     04. STATS GRID
-============================================== -->
-<section class="w-full bg-white border-b border-slate-200 select-none">
+<section class="w-full bg-[#0A1B44] border-b border-white/10 select-none">
   <div class="max-w-7xl mx-auto">
-    <div class="grid grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x lg:divide-x-reverse divide-slate-200">
-      <div class="flex flex-col items-center justify-center p-6 sm:p-8 md:p-12 text-center group">
-        <svg class="w-10 sm:w-12 h-5 mb-4 text-brandRed stroke-current fill-none" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
-        <span class="font-mono text-3xl sm:text-5xl lg:text-6xl font-black text-brandBlue tracking-tight mb-2 group-hover:text-brandRed transition-colors">7+</span><span class="title-font text-xs sm:text-sm text-slate-500">سنوات من الخبرة والنمو</span>
-      </div>
-      <div class="flex flex-col items-center justify-center p-6 sm:p-8 md:p-12 text-center group">
-        <svg class="w-10 sm:w-12 h-5 mb-4 text-brandRed stroke-current fill-none" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
-        <span class="font-mono text-3xl sm:text-5xl lg:text-6xl font-black text-brandBlue tracking-tight mb-2 group-hover:text-brandRed transition-colors">30+</span><span class="title-font text-xs sm:text-sm text-slate-500">مشروع ناجح ومكتمل</span>
-      </div>
-      <div class="flex flex-col items-center justify-center p-6 sm:p-8 md:p-12 text-center group">
-        <svg class="w-10 sm:w-12 h-5 mb-4 text-brandRed stroke-current fill-none" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
-        <span class="font-mono text-3xl sm:text-5xl lg:text-6xl font-black text-brandBlue tracking-tight mb-2 group-hover:text-brandRed transition-colors">95%</span><span class="title-font text-xs sm:text-sm text-slate-500">نسبة استمرار ورضا العملاء</span>
-      </div>
-      <div class="flex flex-col items-center justify-center p-6 sm:p-8 md:p-12 text-center group">
-        <svg class="w-10 sm:w-12 h-5 mb-4 text-brandRed stroke-current fill-none" viewBox="0 0 50 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 5,16 Q 18,17 24,10 T 45,4" /><circle cx="45" cy="4" r="2.5" class="fill-brandRed" /></svg>
-        <span class="font-mono text-3xl sm:text-5xl lg:text-6xl font-black text-brandBlue tracking-tight mb-2 group-hover:text-brandRed transition-colors">22+</span><span class="title-font text-xs sm:text-sm text-slate-500">شريك  </span>
-      </div>
+    <!-- الشبكة: 2 في الهاتف و 4 في اللابتوب مع فواصل شفافة خفيفة بالكامل -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 divide-y divide-white/10 lg:divide-y-0 divide-x divide-x-reverse divide-white/10">
+      
+  <!-- اللوجو 01 -->
+<div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
+  <img src="logo.png" alt="شعار الشريك 1" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
+</div>
+
+<!-- اللوجو 02 -->
+<div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
+  <img src="logo.png" alt="شعار الشريك 2" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
+</div>
+
+<!-- اللوجو 03 -->
+<div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
+  <img src="logo.png" alt="شعار الشريك 3" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
+</div>
+
+<!-- اللوجو 04 -->
+<div class="flex items-center justify-center p-6 sm:p-8 md:p-10 group transition-all duration-300 hover:bg-white/[0.04]">
+  <img src="logo.png" alt="شعار الشريك 4" class="h-20 sm:h-24 md:h-28 w-auto max-w-[220px] sm:max-w-[260px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300">
+</div>
+
     </div>
   </div>
 </section>
@@ -312,11 +343,9 @@
 <!-- ==============================================================
      05. قسم الخدمات
 ============================================================== -->
-
 <section id="services" class="relative w-full bg-slate-50/60 py-16 sm:py-24 px-4 sm:px-6 lg:px-10 overflow-hidden select-none border-b border-slate-200">
   <div class="max-w-7xl mx-auto w-full">
     
-    <!-- العنوان -->
     <div class="flex flex-col items-start mb-8 sm:mb-14">
       <h2 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl title-font tracking-tight text-brandBlue leading-tight flex flex-col gap-2 lg:gap-3">
         <span>حلول برمجية واستراتيجية</span>
@@ -324,16 +353,11 @@
       </h2>
     </div>
 
-    <!-- ==========================================
-         1. تصميم الجوال (Mobile Cards Layout) - مع أيقونات تعبيرية نظيفة
-    =========================================== -->
+    <!-- بطاقات الموبايل للخدمات -->
     <div class="flex lg:hidden flex-col gap-6 w-full">
-      
-      <!-- الخدمة 01: صفحات الهبوط (CRO) -->
       <div class="relative bg-white border border-slate-200/90 rounded-2xl p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1">
         <div class="flex items-center justify-between mb-4">
           <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-red-50 text-brandRed">
-            <!-- أيقونة تحويل / صعود -->
             <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
               <polyline points="17 6 23 6 23 12"></polyline>
@@ -353,11 +377,9 @@
         </div>
       </div>
 
-      <!-- الخدمة 02: المواقع التعريفية والمؤسسية -->
       <div class="relative bg-white border border-slate-200/90 rounded-2xl p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1">
         <div class="flex items-center justify-between mb-4">
           <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-red-50 text-brandRed">
-            <!-- أيقونة موقع/شاشة -->
             <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
               <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
               <line x1="8" y1="21" x2="16" y2="21"></line>
@@ -378,11 +400,9 @@
         </div>
       </div>
 
-      <!-- الخدمة 03: أنظمة الإدارة والتشغيل المصغرة -->
       <div class="relative bg-white border border-slate-200/90 rounded-2xl p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1">
         <div class="flex items-center justify-between mb-4">
           <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-red-50 text-brandRed">
-            <!-- أيقونة نظام / ترس -->
             <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="3"></circle>
               <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
@@ -401,15 +421,10 @@
           </button>
         </div>
       </div>
-
     </div>
 
-    <!-- ==========================================
-         2. تصميم اللابتوب (Laptop Accordion Layout) - للشاشات الكبيرة
-    =========================================== -->
+    <!-- أكورديون اللابتوب للخدمات -->
     <div id="services-accordion" class="hidden lg:flex lg:flex-row gap-3.5 lg:h-[460px] w-full">
-      
-      <!-- الخدمة 01 -->
       <div class="accordion-item is-expanded flex flex-col justify-between p-10 rounded-2xl border border-slate-200 bg-white shadow-sm lg:cursor-pointer transition-all duration-500 ease-out overflow-hidden lg:flex-[3]">
         <div class="accordion-full-content flex flex-col justify-between h-full w-full">
           <div>
@@ -432,7 +447,6 @@
         </div>
       </div>
 
-      <!-- الخدمة 02 -->
       <div class="accordion-item flex flex-col justify-between p-10 rounded-2xl border border-slate-200 bg-white shadow-sm lg:cursor-pointer transition-all duration-500 ease-out overflow-hidden lg:flex-[1]">
         <div class="accordion-full-content hidden flex-col justify-between h-full w-full">
           <div>
@@ -455,7 +469,6 @@
         </div>
       </div>
 
-      <!-- الخدمة 03 -->
       <div class="accordion-item flex flex-col justify-between p-10 rounded-2xl border border-slate-200 bg-white shadow-sm lg:cursor-pointer transition-all duration-500 ease-out overflow-hidden lg:flex-[1]">
         <div class="accordion-full-content hidden flex-col justify-between h-full w-full">
           <div>
@@ -477,11 +490,11 @@
           <span class="font-mono text-xs text-slate-400 font-bold">03</span><span class="writing-vertical-ar title-font text-sm tracking-wider text-slate-700">أنظمة CRM المصغرة</span><span class="text-xs text-slate-400">➔</span>
         </div>
       </div>
-
     </div>
 
   </div>
 </section>
+
 <!-- ==============================================================
      06. قسم الأعمال المتراكمة (STACKING CARDS)
 ============================================================== -->
@@ -496,109 +509,110 @@
       </h2>
     </div>
 
-    <div id="cards-stage" class="relative w-full h-[580px] sm:h-[500px] md:h-[460px]">
+    <!-- الحاوية بارتفاع متناسق ومحكم على الموبايل واللابتوب -->
+    <div id="cards-stage" class="relative w-full h-[720px] sm:h-[700px] lg:h-[480px]">
 
-<!-- عمل 01: شركة عنان للتكييف المركزي -->
-    <div class="stack-panel z-10">
-      <div class="w-full h-full rounded-3xl border border-slate-200 bg-white p-6 sm:p-10 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
-          
-          <!-- اليمين: صورة المعاينة للموقع -->
-          <div class="lg:col-span-6">
-            <div class="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
-              <img src="p2.png" alt="شركة عنان للتكييف المركزي" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+      <!-- عمل 01: شركة عنان للتكييف المركزي -->
+      <div class="stack-panel z-10 bg-white">
+        <div class="w-full h-full rounded-3xl border border-slate-200 bg-white p-5 sm:p-8 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-10 items-center">
+            
+            <!-- صورة المعاينة -->
+            <div class="lg:col-span-6">
+              <div class="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
+                <img src="p2.png" alt="شركة عنان للتكييف المركزي" class="w-full h-auto max-h-[220px] sm:max-h-[260px] lg:max-h-none object-cover group-hover:scale-105 transition-transform duration-500">
+              </div>
             </div>
+
+            <!-- القصة والتفاصيل -->
+            <div class="lg:col-span-6 flex flex-col justify-between text-right">
+              <div>
+                <span class="inline-block px-3 py-0.5 sm:px-3.5 sm:py-1 rounded-full border border-slate-200 bg-slate-50 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-3 sm:mb-5">التكييف المركزي والهندسة</span>
+                <h3 class="text-xl sm:text-2xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-3 sm:mb-4 text-brandBlue">شركة عنان للتكييف المركزي</h3>
+                
+                <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed mb-4 sm:mb-6 text-justify">
+                  في مشروع شركة "عنان"، لم يكن الهدف مجرد عرض خدمات تبريد عادية، بل كان التحدي الرئيسي بناء موقع تعريفي مؤسسي يعكس الضخامة والاحترافية الهندسية للشركة. تطلب العمل تصميم واجهة تفاعلية نظيفة تسلط الضوء على سابقة الأعمال والمشاريع الكبرى المنفذة، مع دمج قسم متخصص للمقالات والأخبار الهندسية لتعزيز الثقة المطلقة لدى العملاء من قطاع الشركات والمقاولات، وتحويل كل زائر إلى شريك استراتيجي مستدام.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5 border-t border-slate-100 pt-3 sm:pt-4 mt-1 sm:mt-2">
+                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">عرض احترافي لسابقة الأعمال والمشاريع</span></div>
+                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">قسم مقالات وأخبار لتعزيز السلطة التقنية</span></div>
+              </div>
+            </div>
+
           </div>
-
-          <!-- اليسار: القصة والتفاصيل -->
-          <div class="lg:col-span-6 flex flex-col justify-between text-right">
-            <div>
-              <span class="inline-block px-3.5 py-1 rounded-full border border-slate-200 bg-slate-50 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-4 sm:mb-6">التكييف المركزي والهندسة</span>
-              <h3 class="text-2xl sm:text-3xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-6 text-brandBlue">شركة عنان للتكييف المركزي <br /></h3>
-              
-              <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed mb-6 text-justify">
-                في مشروع شركة "عنان"، لم يكن الهدف مجرد عرض خدمات تبريد عادية، بل كان التحدي الرئيسي بناء موقع تعريفي مؤسسي يعكس الضخامة والاحترافية الهندسية للشركة. تطلب العمل تصميم واجهة تفاعلية نظيفة تسلط الضوء على سابقة الأعمال والمشاريع الكبرى المنفذة، مع دمج قسم متخصص للمقالات والأخبار الهندسية لتعزيز الثقة المطلقة لدى العملاء من قطاع الشركات والمقاولات، وتحويل كل زائر إلى شريك استراتيجي مستدام.
-              </p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 border-t border-slate-100 pt-4 mt-4">
-              <div class="flex items-center gap-2.5 pb-2 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">عرض احترافي لسابقة الأعمال والمشاريع</span></div>
-              <div class="flex items-center gap-2.5 pb-2 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">قسم مقالات وأخبار لتعزيز السلطة التقنية</span></div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!-- عمل02: منصة رواد التحدي -->
-<div class="stack-panel z-10">
-  <div class="w-full h-full rounded-3xl border border-slate-200 bg-white p-6 sm:p-10 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
-      
-      <!-- اليمين: صورة المعاينة للموقع -->
-      <div class="lg:col-span-6">
-        <div class="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
-          <img src="p1.png" alt="منصة رواد التحدي للتجارة والتصدير" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
         </div>
       </div>
 
-      <!-- اليسار: القصة والتفاصيل -->
-      <div class="lg:col-span-6 flex flex-col justify-between text-right">
-        <div>
-          <span class="inline-block px-3.5 py-1 rounded-full border border-slate-200 bg-slate-50 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-4 sm:mb-6">التجارة الدولية والتصدير</span>
-          <h3 class="text-2xl sm:text-3xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-6 text-brandBlue">منصة رواد التحدي <br /></h3>
-          
-          <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed mb-6 text-justify">
-            لم يكن الهدف مجرد تصميم موقع إلكتروني عابر، بل كان التحدي الحقيقي يكمن في كيفية نقل منتج محلي استثنائي (مثل زيوت السمسم الفاخرة) إلى ساحة التجارة الدولية. تطلب المشروع بناء هيكل رقمي ثنائي اللغة (عربي / إنجليزي) مدعوم بهندسة دقيقة لمحركات البحث (SEO)، لتمكين المستوردين والمشترين الأجانب من العثور عليهم بسهولة تامة، مع عكس هوية مؤسسية توحي بالثقة المطلقة وتبرز الالتزام بالمعايير العالمية وشهادات التحليل (COA). النتيجة كانت بوابة تجارية ثنائية اللغة، فائقة الأداء، تضعهم في صدارة نتائج البحث العالمي وتحول كل زائر دولي إلى شريك تجاري موثوق.
-          </p>
-        </div>
+      <!-- عمل 02: منصة رواد التحدي -->
+      <div class="stack-panel z-10 bg-white">
+        <div class="w-full h-full rounded-3xl border border-slate-200 bg-white p-5 sm:p-8 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-10 items-center">
+            
+            <div class="lg:col-span-6">
+              <div class="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
+                <img src="p1.png" alt="منصة رواد التحدي للتجارة والتصدير" class="w-full h-auto max-h-[220px] sm:max-h-[260px] lg:max-h-none object-cover group-hover:scale-105 transition-transform duration-500">
+              </div>
+            </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 border-t border-slate-100 pt-4 mt-4">
-          <div class="flex items-center gap-2.5 pb-2 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">هيكل ثنائي اللغة (عربي / إنجليزي)</span></div>
-          <div class="flex items-center gap-2.5 pb-2 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">هندسة متقدمة لمحركات البحث (SEO)</span></div>
-          
+            <div class="lg:col-span-6 flex flex-col justify-between text-right">
+              <div>
+                <span class="inline-block px-3 py-0.5 sm:px-3.5 sm:py-1 rounded-full border border-slate-200 bg-slate-50 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-3 sm:mb-5">التجارة الدولية والتصدير</span>
+                <h3 class="text-xl sm:text-2xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-3 sm:mb-4 text-brandBlue">منصة رواد التحدي</h3>
+                
+                <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed mb-4 sm:mb-6 text-justify">
+                  لم يكن الهدف مجرد تصميم موقع إلكتروني عابر، بل كان التحدي الحقيقي يكمن في كيفية نقل منتج محلي استثنائي (مثل زيوت السمسم الفاخرة) إلى ساحة التجارة الدولية. تطلب المشروع بناء هيكل رقمي ثنائي اللغة (عربي / إنجليزي) مدعوم بهندسة دقيقة لمحركات البحث (SEO)، لتمكين المستوردين والمشترين الأجانب من العثور عليهم بسهولة تامة، مع عكس هوية مؤسسية توحي بالثقة المطلقة وتبرز الالتزام بالمعايير العالمية وشهادات التحليل (COA). النتيجة كانت بوابة تجارية ثنائية اللغة، فائقة الأداء، تضعهم في صدارة نتائج البحث العالمي وتحول كل زائر دولي إلى شريك تجاري موثوق.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5 border-t border-slate-100 pt-3 sm:pt-4 mt-1 sm:mt-2">
+                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">هيكل ثنائي اللغة (عربي / إنجليزي)</span></div>
+                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">هندسة متقدمة لمحركات البحث (SEO)</span></div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
 
-    </div>
-<!-- عمل 03: منصة تشارم بيوتي -->
-    <div class="stack-panel z-10">
-      <div class="w-full h-full rounded-3xl border border-slate-200 bg-white p-6 sm:p-10 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-between">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
-          
-          <!-- اليمين: صورة المعاينة للموقع -->
-          <div class="lg:col-span-6">
-            <div class="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
-              <img src="p3.png" alt="منصة " class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+      <!-- عمل 03: منصة تشارم بيوتي -->
+      <div class="stack-panel z-10 bg-white">
+        <div class="w-full h-full rounded-3xl border border-slate-200 bg-white p-5 sm:p-8 md:p-12 shadow-[0_20px_50px_rgba(15,38,92,0.08)] flex flex-col justify-start lg:justify-between gap-4 lg:gap-0 overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-10 items-center">
+            
+            <div class="lg:col-span-6">
+              <div class="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-md group bg-slate-900">
+                <img src="p3.png" alt="منصة تشارم بيوتي" class="w-full h-auto max-h-[220px] sm:max-h-[250px] lg:max-h-none object-cover group-hover:scale-105 transition-transform duration-500">
+              </div>
             </div>
+
+            <div class="lg:col-span-6 flex flex-col justify-start text-right">
+              <div>
+                <span class="inline-block px-3 py-0.5 sm:px-3.5 sm:py-1 rounded-full border border-slate-200 bg-slate-50 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-2 sm:mb-4">التجميل والعناية الطبية</span>
+                <h3 class="text-xl sm:text-2xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-3 sm:mb-4 text-brandBlue">منصة <span class="text-brandRed font-mono uppercase">CHARM BEAUTY</span></h3>
+                
+                <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed mb-4 sm:mb-6 text-justify">
+                  في مشروع "تشارم بيوتي"، كان التحدي يكمن في ترجمة الشعار القائل "جمالك بلمسة طبية راقية" إلى واجهة رقمية تنبض بالفخامة والموثوقية. تطلب العمل تصميم موقع تعريفي وتسويقي متكامل يدمج بين جاذبية عالم التجميل ودقة المعايير الطبية، مع تنظيم الأقسام بذكاء (المنتجات، المدونة، الأسئلة الشائعة) لتسهيل رحلة العميل، بناء الثقة الفورية، ومضاعفة معدلات التحويل والمبيعات.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 border-t border-slate-100 pt-3 sm:pt-4">
+                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">تصميم بصري فاخر يعكس الهوية الطبية</span></div>
+                <div class="flex items-center gap-2 pb-1.5 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">هيكلة متكاملة للمنتجات والمدونة</span></div>
+              </div>
+            </div>
+
           </div>
-
-          <!-- اليسار: القصة والتفاصيل -->
-          <div class="lg:col-span-6 flex flex-col justify-between text-right">
-            <div>
-              <span class="inline-block px-3.5 py-1 rounded-full border border-slate-200 bg-slate-50 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-slate-600 font-bold mb-4 sm:mb-6">التجميل والعناية الطبية</span>
-              <h3 class="text-2xl sm:text-3xl lg:text-4xl title-font tracking-tight leading-[1.2] mb-6 text-brandBlue">منصة <span class="text-brandRed font-mono uppercase">CHARM BEAUTY</span></h3>
-              
-              <p class="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed mb-6 text-justify">
-                في مشروع "تشارم بيوتي"، كان التحدي يكمن في ترجمة الشعار القائل "جمالك بلمسة طبية راقية" إلى واجهة رقمية تنبض بالفخامة والموثوقية. تطلب العمل تصميم موقع تعريفي وتسويقي متكامل يدمج بين جاذبية عالم التجميل ودقة المعايير الطبية، مع تنظيم الأقسام بذكاء (المنتجات، المدونة، الأسئلة الشائعة)[cite: 2] لتسهيل رحلة العميل، بناء الثقة الفورية، ومضاعفة معدلات التحويل والمبيعات.
-              </p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 border-t border-slate-100 pt-4 mt-4">
-              <div class="flex items-center gap-2.5 pb-2 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">تصميم بصري فاخر يعكس الهوية الطبية</span></div>
-              <div class="flex items-center gap-2.5 pb-2 border-b border-slate-50"><span class="w-1.5 h-1.5 rounded-full bg-brandRed shrink-0"></span><span class="text-xs sm:text-sm title-font text-slate-700">هيكلة متكاملة للمنتجات والمدونة </span></div>
-            </div>
-          </div>
-
         </div>
       </div>
+
     </div>
   </div>
-
 </section>
 
 <!-- ==============================================================
-     شريط الدعوة للتواصل السريع (HIGH-IMPACT RED/BLUE CTA BANNER)
+     شريط الدعوة للتواصل السريع
 ============================================================== -->
 <section class="relative w-full bg-gradient-to-r from-brandBlue via-[#122B68] to-brandBlue text-white py-10 sm:py-12 px-4 sm:px-6 lg:px-12 select-none overflow-hidden shadow-xl">
   <div class="absolute inset-0 bg-[radial-gradient(circle_at_right,rgba(186,32,38,0.25),transparent_60%)] pointer-events-none"></div>
@@ -615,17 +629,17 @@
         <p class="text-slate-300 text-xs sm:text-sm font-medium mt-1">احصل على استشارة وتحليل مجاني لموقعك ومسار تحويل عملائك.</p>
       </div>
     </div>
-    <div class="shrink-0 w-full sm:w-auto">
-      <button onclick="openContactModal()" class="group inline-flex items-center justify-center gap-3 w-full sm:w-auto px-8 py-3.5 sm:px-10 sm:py-4 rounded-full bg-brandRed hover:bg-brandRed-hover text-white title-font text-xs sm:text-sm transition-all duration-300 shadow-lg shadow-brandRed/30 active:scale-95 whitespace-nowrap">
-        <span>تواصل معنا الآن</span>
-        <span class="text-base transition-transform group-hover:-translate-x-1.5">←</span>
-      </button>
-    </div>
+<div class="shrink-0 w-auto flex justify-center">
+  <button onclick="openContactModal()" class="group inline-flex items-center justify-center gap-3 w-auto px-7 py-3 sm:px-10 sm:py-4 rounded-full bg-brandRed hover:bg-brandRed-hover text-white title-font text-xs sm:text-sm transition-all duration-300 shadow-lg shadow-brandRed/30 active:scale-95 whitespace-nowrap">
+    <span>تواصل معنا الآن</span>
+    <span class="text-base transition-transform group-hover:-translate-x-1.5">←</span>
+  </button>
+</div>
   </div>
 </section>
 
 <!-- ==============================================================
-     قسم المقالات والرؤى التسويقية (ARTICLES SECTION)
+     قسم المقالات والرؤى التسويقية
 ============================================================== -->
 <section id="articles" class="relative w-full bg-slate-50/50 py-16 sm:py-24 px-4 sm:px-6 lg:px-10 overflow-hidden select-none border-b border-slate-200">
   <div class="max-w-7xl mx-auto w-full">
@@ -640,12 +654,6 @@
           <span class="text-brandRed">بيانات حقيقية ونتائج موثقة</span>
         </h2>
       </div>
-<!--
-      <a href="#all-articles" class="group inline-flex items-center gap-3 px-5 py-2.5 sm:px-6 sm:py-3 rounded-full border border-slate-300 bg-white hover:border-brandRed hover:text-brandRed text-xs sm:text-sm title-font text-slate-700 transition-all shrink-0 self-start md:self-auto shadow-sm">
-        <span>عرض جميع المقالات</span>
-        <span class="text-brandRed transition-transform group-hover:-translate-x-1">←</span>
-      </a>
--->
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -653,7 +661,6 @@
       <!-- مقال 01 -->
       <article class="flex flex-col justify-between rounded-3xl border border-slate-200 bg-white p-5 sm:p-6 hover:shadow-lg transition-all duration-300 group">
         <div>
-          <!-- رأس الكارت الجديد: تصميم أنيق، هادئ، وعربي بالكامل -->
           <div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden bg-slate-900 p-6 flex flex-col justify-between mb-5">
             <div class="flex items-center justify-between">
               <span class="text-[11px] font-mono text-slate-400 px-3 py-1 rounded-full font-bold">إدارة الأعمال</span>
@@ -680,7 +687,6 @@
       <!-- مقال 02 -->
       <article class="flex flex-col justify-between rounded-3xl border border-slate-200 bg-white p-5 sm:p-6 hover:shadow-lg transition-all duration-300 group">
         <div>
-          <!-- رأس الكارت الجديد -->
           <div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden bg-slate-900 p-6 flex flex-col justify-between mb-5">
             <div class="flex items-center justify-between">
               <span class="text-[11px] font-mono text-slate-400 px-3 py-1 rounded-full font-bold">هندسة المبيعات</span>
@@ -707,7 +713,6 @@
       <!-- مقال 03 -->
       <article class="flex flex-col justify-between rounded-3xl border border-slate-200 bg-white p-5 sm:p-6 hover:shadow-lg transition-all duration-300 group">
         <div>
-          <!-- رأس الكارت الجديد -->
           <div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden bg-slate-900 p-6 flex flex-col justify-between mb-5">
             <div class="flex items-center justify-between">
               <span class="text-[11px] font-mono text-slate-400 px-3 py-1 rounded-full font-bold">أنظمة التشغيل</span>
@@ -736,13 +741,11 @@
 </section>
 
 <!-- ==============================================================
-     المودل الخاص بقراءة المقالات (ARTICLE READING MODAL)
-============================================================== -->
+     المودل الخاص بقراءة المقالات
+============================================== -->
 <div id="article-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-slate-900/60 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
   <div class="absolute inset-0" onclick="closeArticleModal()"></div>
   <div class="relative w-full max-w-3xl bg-white rounded-3xl p-6 sm:p-10 shadow-[0_25px_70px_rgba(15,38,92,0.2)] z-10 transition-transform duration-300 scale-95 max-h-[92vh] overflow-y-auto border border-slate-200 text-right" id="article-modal-dialog">
-    
-    <!-- رأس المودل -->
     <div class="flex items-center justify-between border-b border-slate-200 pb-5 mb-6">
       <div>
         <span id="modal-article-tag" class="block text-[10px] font-mono text-brandRed uppercase tracking-widest mb-1 font-bold"></span>
@@ -753,12 +756,8 @@
       </button>
     </div>
 
-    <!-- محتوى المقال -->
-    <div id="modal-article-content" class="space-y-4 text-slate-700 text-sm sm:text-base leading-relaxed text-justify">
-      <!-- يتم حقن المحتوى هنا -->
-    </div>
+    <div id="modal-article-content" class="space-y-4 text-slate-700 text-sm sm:text-base leading-relaxed text-justify"></div>
 
-    <!-- تذييل المقال -->
     <div class="border-t border-slate-100 pt-6 mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
       <p class="text-xs text-slate-500">هل تحتاج لاستشارة مخصصة لتطبيق هذه الاستراتيجية في نشاطك؟</p>
       <button type="button" onclick="closeArticleModal(); openContactModal();" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-brandRed hover:bg-brandRed-hover text-white text-xs sm:text-sm title-font transition-all shadow-md active:scale-95 whitespace-nowrap">
@@ -768,8 +767,8 @@
     </div>
   </div>
 </div>  
-  
 
+<!-- النشرة البريدية -->
 <section class="relative w-full bg-white py-16 sm:py-20 px-4 sm:px-6 lg:px-10 border-t border-b border-slate-200 overflow-hidden select-none">
   <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-brandRed/5 rounded-full blur-[100px] pointer-events-none"></div>
   <div class="max-w-4xl mx-auto w-full relative z-10 text-center flex flex-col items-center">
@@ -799,9 +798,9 @@
   </div>
 </section>
 
-<!-- ==============================================================
+<!-- ==============================================
      08. قسم الأسئلة الشائعة (FAQ)
-============================================================== -->
+============================================== -->
 <section id="faq" class="relative w-full bg-slate-50/70 py-16 sm:py-24 px-4 sm:px-6 lg:px-10 overflow-hidden select-none border-b border-slate-200">
   <div class="max-w-7xl mx-auto w-full">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
@@ -820,7 +819,6 @@
       </div>
       <div class="lg:col-span-7 flex flex-col divide-y divide-slate-200 border-t border-b border-slate-200 w-full bg-white rounded-2xl p-4 sm:p-6 shadow-sm">
         
-        <!-- سؤال 01 -->
         <div class="faq-item group py-5 sm:py-6 cursor-pointer transition-colors">
           <button type="button" class="faq-btn w-full flex items-center justify-between text-right gap-4 select-none focus:outline-none">
             <div class="flex items-center gap-3 sm:gap-4"><span class="font-mono text-brandRed font-bold text-xs sm:text-sm">01</span><span class="title-font text-sm sm:text-base lg:text-lg text-brandBlue group-hover:text-brandRed transition-colors">ما الذي يجعل صفحات الهبوط التي تصممونها تحقق مبيعات أعلى؟</span></div>
@@ -831,7 +829,6 @@
           </div>
         </div>
 
-        <!-- سؤال 02 -->
         <div class="faq-item group py-5 sm:py-6 cursor-pointer transition-colors">
           <button type="button" class="faq-btn w-full flex items-center justify-between text-right gap-4 select-none focus:outline-none">
             <div class="flex items-center gap-3 sm:gap-4"><span class="font-mono text-brandRed font-bold text-xs sm:text-sm">02</span><span class="title-font text-sm sm:text-base lg:text-lg text-brandBlue group-hover:text-brandRed transition-colors">كم يستغرق الوقت لتسليم صفحة هبوط أو موقع متكامل؟</span></div>
@@ -842,7 +839,6 @@
           </div>
         </div>
 
-        <!-- سؤال 03 -->
         <div class="faq-item group py-5 sm:py-6 cursor-pointer transition-colors">
           <button type="button" class="faq-btn w-full flex items-center justify-between text-right gap-4 select-none focus:outline-none">
             <div class="flex items-center gap-3 sm:gap-4"><span class="font-mono text-brandRed font-bold text-xs sm:text-sm">03</span><span class="title-font text-sm sm:text-base lg:text-lg text-brandBlue group-hover:text-brandRed transition-colors">كيف يتم احتساب تكلفة المشروع وآلية الدفع؟</span></div>
@@ -853,7 +849,6 @@
           </div>
         </div>
 
-        <!-- سؤال 04 -->
         <div class="faq-item group py-5 sm:py-6 cursor-pointer transition-colors">
           <button type="button" class="faq-btn w-full flex items-center justify-between text-right gap-4 select-none focus:outline-none">
             <div class="flex items-center gap-3 sm:gap-4"><span class="font-mono text-brandRed font-bold text-xs sm:text-sm">04</span><span class="title-font text-sm sm:text-base lg:text-lg text-brandBlue group-hover:text-brandRed transition-colors">هل سأتمكن من تعديل المحتوى والصور بنفسي بعد التسليم؟</span></div>
@@ -864,7 +859,6 @@
           </div>
         </div>
 
-        <!-- سؤال 05 -->
         <div class="faq-item group py-5 sm:py-6 cursor-pointer transition-colors">
           <button type="button" class="faq-btn w-full flex items-center justify-between text-right gap-4 select-none focus:outline-none">
             <div class="flex items-center gap-3 sm:gap-4"><span class="font-mono text-brandRed font-bold text-xs sm:text-sm">05</span><span class="title-font text-sm sm:text-base lg:text-lg text-brandBlue group-hover:text-brandRed transition-colors">هل يشمل العمل تهيئة الموقع لمحركات البحث (SEO) والربط مع الإعلانات؟</span></div>
@@ -875,7 +869,6 @@
           </div>
         </div>
 
-        <!-- سؤال 06 -->
         <div class="faq-item group py-5 sm:py-6 cursor-pointer transition-colors">
           <button type="button" class="faq-btn w-full flex items-center justify-between text-right gap-4 select-none focus:outline-none">
             <div class="flex items-center gap-3 sm:gap-4"><span class="font-mono text-brandRed font-bold text-xs sm:text-sm">06</span><span class="title-font text-sm sm:text-base lg:text-lg text-brandBlue group-hover:text-brandRed transition-colors">ما هي الخطوة الأولى لبدء العمل معاً؟</span></div>
@@ -894,14 +887,15 @@
 <!-- ==============================================
      FOOTER
 ============================================== -->
+<!-- ==============================================
+     FOOTER
+============================================== -->
 <footer class="relative w-full bg-white text-slate-700 pt-16 sm:pt-20 pb-12 px-4 sm:px-6 lg:px-10 border-t border-slate-200 select-none">
   <div class="max-w-7xl mx-auto w-full">
-
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-12 gap-10 lg:gap-8 pb-14 sm:pb-16 text-right">
-
-      <!-- العمود الأول: الشعار والنبذة ومعلومات الاتصال -->
-      <div class="col-span-2 md:col-span-3 lg:col-span-4 flex flex-col items-start text-right pr-0 lg:pr-4">
-        
+      
+      <!-- العمود الأول: الشعار والنبذة ومعلومات البريد والواتساب -->
+      <div class="col-span-2 md:col-span-3 lg:col-span-5 flex flex-col items-start text-right pr-0 lg:pr-4">
         <a href="/" class="inline-flex items-center gap-2 mb-5 select-none">
           <span class="logo-font text-3xl sm:text-4xl tracking-tighter uppercase text-brandBlue hover:text-brandBlue-light transition-colors">
             LADAN
@@ -929,90 +923,45 @@
             </a>
           </div>
         </div>
-
       </div>
 
       <!-- العمود الثاني: الخدمات -->
-      <div class="col-span-1 lg:col-span-3 flex flex-col items-start">
+      <div class="col-span-1 lg:col-span-4 flex flex-col items-start">
         <span class="text-[11px] sm:text-xs font-mono font-bold uppercase tracking-widest text-brandBlue mb-4 sm:mb-6">
           SERVICES // الخدمات
         </span>
         <ul class="space-y-3 text-xs sm:text-sm text-slate-500">
-          <li><a href="/#services" class="hover:text-brandBlue transition-colors">صفحات الهبوط (CRO)</a></li>
-          <li><a href="/#services" class="hover:text-brandBlue transition-colors">تطوير المواقع والمنصات</a></li>
-          <li><a href="/#services" class="hover:text-brandBlue transition-colors">تحسين السيو التقني (SEO)</a></li>
-          <li><a href="/#services" class="hover:text-brandBlue transition-colors">قنوات تحويل المبيعات (Funnels)</a></li>
-          <li><a href="/#services" class="hover:text-brandBlue transition-colors">أتمتة استقبال الطلبات</a></li>
-          <li><a href="/#services" class="hover:text-brandBlue transition-colors">صيانة وتحسين الأداء</a></li>
+          <li><a href="#services" class="hover:text-brandBlue transition-colors">صفحات الهبوط (CRO)</a></li>
+          <li><a href="#services" class="hover:text-brandBlue transition-colors">تطوير المواقع والمنصات</a></li>
+          <li><a href="#services" class="hover:text-brandBlue transition-colors">تحسين السيو التقني (SEO)</a></li>
+          <li><a href="#services" class="hover:text-brandBlue transition-colors">قنوات تحويل المبيعات (Funnels)</a></li>
+          <li><a href="#services" class="hover:text-brandBlue transition-colors">أتمتة استقبال الطلبات</a></li>
+          <li><a href="#services" class="hover:text-brandBlue transition-colors">صيانة وتحسين الأداء</a></li>
         </ul>
       </div>
 
       <!-- العمود الثالث: روابط سريعة -->
-      <div class="col-span-1 lg:col-span-2 flex flex-col items-start">
+      <div class="col-span-1 lg:col-span-3 flex flex-col items-start">
         <span class="text-[11px] sm:text-xs font-mono font-bold uppercase tracking-widest text-brandBlue mb-4 sm:mb-6">
           LINKS // روابط سريعة
         </span>
         <ul class="space-y-3 text-xs sm:text-sm text-slate-500">
-          <li><a href="/" class="hover:text-brandBlue transition-colors">الرئيسية</a></li>
-          <li><a href="/#services" class="hover:text-brandBlue transition-colors">خدماتنا</a></li>
-          <li><a href="/portfolio" class="hover:text-brandBlue transition-colors">قصص النجاح</a></li>
-          <li><a href="/articles" class="hover:text-brandBlue transition-colors">المقالات والتحليلات</a></li>
-          <li><a href="/#faq" class="hover:text-brandBlue transition-colors">الأسئلة الشائعة</a></li>
+          <li><a href="#" class="hover:text-brandBlue transition-colors">الرئيسية</a></li>
+          <li><a href="#services" class="hover:text-brandBlue transition-colors">خدماتنا</a></li>
+          <li><a href="#portfolio" class="hover:text-brandBlue transition-colors">قصص النجاح</a></li>
+          <li><a href="#articles" class="hover:text-brandBlue transition-colors">المقالات والتحليلات</a></li>
+          <li><a href="#faq" class="hover:text-brandBlue transition-colors">الأسئلة الشائعة</a></li>
           <li><button type="button" onclick="openContactModal()" class="hover:text-brandRed transition-colors font-bold text-right">طلب استشارة مجانية</button></li>
         </ul>
       </div>
 
-      <!-- العمود الرابع: تواصل مع أرقام الاتصال وزر العودة للأعلى -->
-      <div class="col-span-2 lg:col-span-3 flex flex-col items-start">
-        <span class="text-[11px] sm:text-xs font-mono font-bold uppercase tracking-widest text-brandBlue mb-4 sm:mb-6">
-          CONNECT // التواصل واتصال مباشر
-        </span>
-        <ul class="space-y-3 text-xs sm:text-sm font-mono text-slate-500 w-full">
-          <!-- رقم الاتصال الأول -->
-          <li>
-            <a href="tel:+249000000000" class="group flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors">
-              <span dir="ltr" class="text-slate-700 font-bold">+249 000 000 000</span>
-              <span class="text-brandRed text-xs flex items-center gap-1">اتصال <span>📞</span></span>
-            </a>
-          </li>
-          <!-- رقم الاتصال الثاني -->
-          <li>
-            <a href="tel:+249111111111" class="group flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors">
-              <span dir="ltr" class="text-slate-700 font-bold">+249 111 111 111</span>
-              <span class="text-brandRed text-xs flex items-center gap-1">اتصال <span>📞</span></span>
-            </a>
-          </li>
-          <!-- روابط منصات التواصل -->
-          <li class="pt-2 flex items-center gap-4">
-            <a href="https://linkedin.com" target="_blank" class="hover:text-brandBlue transition-colors">LinkedIn</a>
-            <a href="https://x.com" target="_blank" class="hover:text-brandBlue transition-colors">X</a>
-            <a href="https://instagram.com" target="_blank" class="hover:text-brandBlue transition-colors">Instagram</a>
-            <a href="https://wa.me/249000000000" target="_blank" class="text-emerald-500 hover:text-emerald-600 transition-colors">WhatsApp</a>
-          </li>
-        </ul>
-      </div>
-
     </div>
 
-    <!-- السطر السفلي (زر العودة للأعلى فقط) -->
-    <div class="pt-8 border-t border-slate-200 flex items-center justify-start">
-      <button id="back-to-top" 
-              type="button" 
-              aria-label="العودة للأعلى" 
-              class="w-9 h-9 rounded-full border border-slate-300 bg-white hover:border-brandRed hover:bg-brandRed hover:text-white flex items-center justify-center text-slate-600 transition-all active:scale-90 shadow-sm">
-        <span class="font-mono text-sm leading-none font-bold">↑</span>
-      </button>
-    </div>
 
   </div>
 </footer>
 
-<!-- ==============================================================
-     الشريط العائم الثابت باليمين وزر الواتساب للموبايل
-============================================== -->
-<!-- ==============================================================
-     الشريط العائم الثابت باليمين وزر الواتساب للموبايل
-============================================== -->
+<!-- شريط التواصل العائم وزر الموبايل -->
 <aside class="fixed right-0 top-1/2 -translate-y-1/2 z-50 hidden lg:flex flex-col items-center gap-3 select-none">
   <button type="button" onclick="openContactModal()" aria-label="تواصل معنا" class="group relative bg-brandRed hover:bg-brandRed-hover text-white px-3 py-6 rounded-l-2xl shadow-[0_10px_30px_rgba(186,32,38,0.25)] transition-all duration-300 active:scale-95 flex flex-col items-center justify-between gap-4">
     <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24">
@@ -1026,7 +975,6 @@
     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
       <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
     </svg>
-   
   </a>
 </aside>
 
@@ -1035,9 +983,9 @@
     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
       <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
     </svg>
-   
   </a>
 </div>
+
 <!-- ==============================================================
      المودل التفاعلي للفورم (CONTACT MODAL)
 ============================================== -->
@@ -1092,7 +1040,10 @@
     </form>
   </div>
 </div>
-<!-- السكربتات المخصصة للصفحة الرئيسية (تفاعلات الأكورديون، الأسئلة الشائعة، والبطاقات GSAP) -->
+
+<!-- ==============================================
+     SCRIPTS
+============================================== -->
 <script>
   // 1. الأكورديون (الخدمات)
   const accordionItems = document.querySelectorAll('.accordion-item');
@@ -1141,29 +1092,38 @@
     });
   });
 
-  // 3. كروت الأعمال المتراكمة (GSAP)
+  // 3. كروت الأعمال المتراكمة (GSAP مفعل لكافة الأجهزة مع دعم مسافة التمرير للهاتف)
   window.addEventListener('DOMContentLoaded', () => {
     if(typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
       gsap.registerPlugin(ScrollTrigger);
       const panels = gsap.utils.toArray('.stack-panel');
       if(panels.length > 0) {
         gsap.set(panels.slice(1), { yPercent: 100 });
+        
+        // مسافة التمرير تتناسب ديناميكياً مع ارتفاع الشاشة
+       const scrollDistance = window.innerWidth < 1024 ? "+=2200" : "+=2400";
+        const startTrigger = window.innerWidth < 1024 ? "top 8%" : "top 10%";
+
         const tl = gsap.timeline({
-          scrollTrigger: { trigger: "#portfolio", start: "top 10%", end: "+=2600", pin: true, scrub: 0.6, anticipatePin: 1 }
+          scrollTrigger: { 
+            trigger: "#portfolio", 
+            start: startTrigger, 
+            end: scrollDistance, 
+            pin: true, 
+            scrub: 0.6, 
+            anticipatePin: 1 
+          }
         });
-        tl.to(panels[1], { yPercent: 0, ease: "none", duration: 1 }).to(panels[0], { scale: 0.95, ease: "none", duration: 1 }, "<");
-        tl.to(panels[2], { yPercent: 0, ease: "none", duration: 1 }).to(panels[1], { scale: 0.95, ease: "none", duration: 1 }, "<");
-        tl.to(panels[3], { yPercent: 0, ease: "none", duration: 1 }).to(panels[2], { scale: 0.95, ease: "none", duration: 1 }, "<");
+        
+        tl.to(panels[1], { yPercent: 0, ease: "none", duration: 1 })
+          .to(panels[0], { scale: 0.95, ease: "none", duration: 1 }, "<")
+          .to(panels[2], { yPercent: 0, ease: "none", duration: 1 })
+          .to(panels[1], { scale: 0.95, ease: "none", duration: 1 }, "<");
       }
     }
   });
-</script>
 
-<!-- ==============================================
-     GLOBAL SCRIPTS (Modal, Menu, Back to Top)
-============================================== -->
-<script>
-  // 1. سكربت فتح وإغلاق المودل التفاعلي
+  // 4. المودل وقائمة الموبايل وزر الصعود
   const contactModal = document.getElementById('contact-modal');
   const contactDialog = document.getElementById('contact-modal-dialog');
   const serviceInput = document.getElementById('modal-service-input');
@@ -1201,7 +1161,6 @@
     closeContactModal();
   }
 
-  // 2. سكربت قائمة الموبايل
   const toggleBtn = document.getElementById('unique-toggle-btn');
   const overlay = document.getElementById('unique-menu-overlay');
   const btnText = document.getElementById('btn-text');
@@ -1228,18 +1187,20 @@
   if (toggleBtn) toggleBtn.addEventListener('click', toggleMenu);
   links.forEach(link => link.addEventListener('click', () => { if (isMenuOpen) toggleMenu(); }));
 
-  // 3. سكربت العودة للأعلى
   const backToTopBtn = document.getElementById('back-to-top');
   if (backToTopBtn) {
     backToTopBtn.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   }
-</script>
-<!-- ==============================================================
-     سكربت إدارة محتوى المقالات والتحكم بالمودل (JAVASCRIPT)
-============================================================== -->
-<script>
+
+  function handleNewsletterSubmit(e) {
+    e.preventDefault();
+    alert('شكراً لاشتراكك! ستصلك أحدث المقالات والرؤى التسويقية أولاً بأول.');
+    document.getElementById('newsletter-email').value = '';
+  }
+
+  // 5. بيانات المقالات
   const articlesData = {
     1: {
       tag: "// استراتيجيات البيزنس • قراءة 3 دقائق",
@@ -1332,4 +1293,3 @@
 </script>
 </body>
 </html>
-
